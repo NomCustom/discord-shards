@@ -11,7 +11,7 @@ bot = commands.AutoShardedBot(command_prefix="prefix")
 async def on_ready():
   print(f"Shards activated! Number of shards: {bot.shard_count - 1}.")
 
-bot.run(your_bot_token)
+bot.run("your_bot_token")
 
 # custom client version
 
